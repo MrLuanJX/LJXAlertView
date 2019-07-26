@@ -44,6 +44,7 @@
     return _alertShowBtn;
 }
 
+
 - (void) alertShowAction {
     LJXAlertView * alertView = [LJXAlertView new];
     alertView.dataArray = [NSMutableArray arrayWithObjects:@"五星好评",@"我要吐槽",@"残忍拒绝", nil];
