@@ -129,18 +129,16 @@
 		DDE9E6A622EACC86006C43E8 /* LJXAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				DDE9E71B22EAF916006C43E8 /* AlertView */,
 				DDE9E6A722EACC86006C43E8 /* AppDelegate.h */,
 				DDE9E6A822EACC86006C43E8 /* AppDelegate.m */,
 				DDE9E6AA22EACC86006C43E8 /* ViewController.h */,
 				DDE9E6AB22EACC86006C43E8 /* ViewController.m */,
-				DDE9E6D922EACCD1006C43E8 /* LJXAlertView.h */,
-				DDE9E6DA22EACCD1006C43E8 /* LJXAlertView.m */,
 				DDE9E6AD22EACC86006C43E8 /* Main.storyboard */,
 				DDE9E6B022EACC87006C43E8 /* Assets.xcassets */,
 				DDE9E6B222EACC87006C43E8 /* LaunchScreen.storyboard */,
 				DDE9E6B522EACC87006C43E8 /* Info.plist */,
 				DDE9E6B622EACC87006C43E8 /* main.m */,
-				DDE9E6DC22EAD3E4006C43E8 /* PrefixHeader.pch */,
 			);
 			path = LJXAlertView;
 			sourceTree = "<group>";
@@ -161,6 +159,16 @@
 				DDE9E6CD22EACC88006C43E8 /* Info.plist */,
 			);
 			path = LJXAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		DDE9E71B22EAF916006C43E8 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				DDE9E6DC22EAD3E4006C43E8 /* PrefixHeader.pch */,
+				DDE9E6D922EACCD1006C43E8 /* LJXAlertView.h */,
+				DDE9E6DA22EACCD1006C43E8 /* LJXAlertView.m */,
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -529,7 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXAlertView/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXAlertView/AlertView/PrefixHeader.pch";
 				INFOPLIST_FILE = LJXAlertView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -549,7 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXAlertView/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXAlertView/AlertView/PrefixHeader.pch";
 				INFOPLIST_FILE = LJXAlertView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
