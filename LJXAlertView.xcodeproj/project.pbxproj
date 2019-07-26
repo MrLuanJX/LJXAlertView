@@ -15,6 +15,8 @@
 		DDE9E6B722EACC87006C43E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE9E6B622EACC87006C43E8 /* main.m */; };
 		DDE9E6C122EACC87006C43E8 /* LJXAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE9E6C022EACC87006C43E8 /* LJXAlertViewTests.m */; };
 		DDE9E6CC22EACC88006C43E8 /* LJXAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE9E6CB22EACC88006C43E8 /* LJXAlertViewUITests.m */; };
+		DDE9E6DB22EACCD1006C43E8 /* LJXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE9E6DA22EACCD1006C43E8 /* LJXAlertView.m */; };
+		FBE1649EE1DC13244C60B7B5 /* libPods-LJXAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97235C76CE72B293CFDAA127 /* libPods-LJXAlertView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CC66EDF240B743E8C9F3B85 /* Pods-LJXAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJXAlertView.debug.xcconfig"; path = "Target Support Files/Pods-LJXAlertView/Pods-LJXAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+		97235C76CE72B293CFDAA127 /* libPods-LJXAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJXAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE9E6A422EACC86006C43E8 /* LJXAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJXAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE9E6A722EACC86006C43E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDE9E6A822EACC86006C43E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		DDE9E6C722EACC88006C43E8 /* LJXAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJXAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE9E6CB22EACC88006C43E8 /* LJXAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXAlertViewUITests.m; sourceTree = "<group>"; };
 		DDE9E6CD22EACC88006C43E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE9E6D922EACCD1006C43E8 /* LJXAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJXAlertView.h; sourceTree = "<group>"; };
+		DDE9E6DA22EACCD1006C43E8 /* LJXAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJXAlertView.m; sourceTree = "<group>"; };
+		DDE9E6DC22EAD3E4006C43E8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EEB91CDA9538760CE03BB08C /* Pods-LJXAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJXAlertView.release.xcconfig"; path = "Target Support Files/Pods-LJXAlertView/Pods-LJXAlertView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE1649EE1DC13244C60B7B5 /* libPods-LJXAlertView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38BC17A2A63B9160AB6BA53A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CC66EDF240B743E8C9F3B85 /* Pods-LJXAlertView.debug.xcconfig */,
+				EEB91CDA9538760CE03BB08C /* Pods-LJXAlertView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDB3878DEEE386164CD612F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97235C76CE72B293CFDAA127 /* libPods-LJXAlertView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDE9E69B22EACC86006C43E8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				DDE9E6BF22EACC87006C43E8 /* LJXAlertViewTests */,
 				DDE9E6CA22EACC88006C43E8 /* LJXAlertViewUITests */,
 				DDE9E6A522EACC86006C43E8 /* Products */,
+				38BC17A2A63B9160AB6BA53A /* Pods */,
+				DDB3878DEEE386164CD612F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +133,14 @@
 				DDE9E6A822EACC86006C43E8 /* AppDelegate.m */,
 				DDE9E6AA22EACC86006C43E8 /* ViewController.h */,
 				DDE9E6AB22EACC86006C43E8 /* ViewController.m */,
+				DDE9E6D922EACCD1006C43E8 /* LJXAlertView.h */,
+				DDE9E6DA22EACCD1006C43E8 /* LJXAlertView.m */,
 				DDE9E6AD22EACC86006C43E8 /* Main.storyboard */,
 				DDE9E6B022EACC87006C43E8 /* Assets.xcassets */,
 				DDE9E6B222EACC87006C43E8 /* LaunchScreen.storyboard */,
 				DDE9E6B522EACC87006C43E8 /* Info.plist */,
 				DDE9E6B622EACC87006C43E8 /* main.m */,
+				DDE9E6DC22EAD3E4006C43E8 /* PrefixHeader.pch */,
 			);
 			path = LJXAlertView;
 			sourceTree = "<group>";
@@ -139,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE9E6D022EACC88006C43E8 /* Build configuration list for PBXNativeTarget "LJXAlertView" */;
 			buildPhases = (
+				F3EDC1F2B4CC554324DB3E47 /* [CP] Check Pods Manifest.lock */,
 				DDE9E6A022EACC86006C43E8 /* Sources */,
 				DDE9E6A122EACC86006C43E8 /* Frameworks */,
 				DDE9E6A222EACC86006C43E8 /* Resources */,
+				E3317F5449CFED7CEDD0E06C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +290,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E3317F5449CFED7CEDD0E06C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LJXAlertView/Pods-LJXAlertView-resources.sh",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
+				"${PODS_ROOT}/BRPickerView/BRPickerView/AddressPickerView/BRPickerView.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BRPickerView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LJXAlertView/Pods-LJXAlertView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3EDC1F2B4CC554324DB3E47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJXAlertView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDE9E6A022EACC86006C43E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +354,7 @@
 			files = (
 				DDE9E6AC22EACC86006C43E8 /* ViewController.m in Sources */,
 				DDE9E6B722EACC87006C43E8 /* main.m in Sources */,
+				DDE9E6DB22EACCD1006C43E8 /* LJXAlertView.m in Sources */,
 				DDE9E6A922EACC86006C43E8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +524,14 @@
 		};
 		DDE9E6D122EACC88006C43E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC66EDF240B743E8C9F3B85 /* Pods-LJXAlertView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXAlertView/PrefixHeader.pch";
 				INFOPLIST_FILE = LJXAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +544,14 @@
 		};
 		DDE9E6D222EACC88006C43E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB91CDA9538760CE03BB08C /* Pods-LJXAlertView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LJXAlertView/PrefixHeader.pch";
 				INFOPLIST_FILE = LJXAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

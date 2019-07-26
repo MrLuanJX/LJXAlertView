@@ -1,0 +1,102 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AlipaySDK-iOS (15.5.9)
+  - BRPickerView (2.2.1)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IQKeyboardManager (6.3.0)
+  - JCore (2.0.1)
+  - JPush (3.2.0):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.17)
+  - MJRefresh (3.2.0)
+  - ReactiveObjC (3.1.1)
+  - RollingNotice (1.0.8)
+  - SDWebImage (5.0.3):
+    - SDWebImage/Core (= 5.0.3)
+  - SDWebImage/Core (5.0.3)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (3.2.0)
+  - WMPageController (2.5.2)
+  - XHLaunchAd (3.9.8):
+    - FLAnimatedImage (~> 1.0.12)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AlipaySDK-iOS
+  - BRPickerView
+  - FMDB
+  - IQKeyboardManager
+  - JPush
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - ReactiveObjC
+  - RollingNotice
+  - SDWebImage
+  - SVProgressHUD
+  - TZImagePickerController
+  - WMPageController
+  - XHLaunchAd
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AlipaySDK-iOS
+    - BRPickerView
+    - FLAnimatedImage
+    - FMDB
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - ReactiveObjC
+    - RollingNotice
+    - SDWebImage
+    - SVProgressHUD
+    - TZImagePickerController
+    - WMPageController
+    - XHLaunchAd
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  BRPickerView: 0590a8c5de9bd98c6b4e4f117a3dff6de287d5b2
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
+  JCore: 8425fb3f85f1400f9bc8ccf8121cd5694a790f3b
+  JPush: 8459e7a709ad86f95884fcb49cbd57a6da24744e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  RollingNotice: 578c45ef47cb66f24da2e9ab4aea0f28db36e299
+  SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: 7850b158d025065b162a1a963d445040b828abc9
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  XHLaunchAd: 45048592af01aa501c9d2d0c45e95ca74c4d0596
+
+PODFILE CHECKSUM: 0fe9d3ae5d5d629447219be82b9e90a0133ec449
+
+COCOAPODS: 1.6.2
